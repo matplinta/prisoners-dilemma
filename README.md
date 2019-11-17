@@ -10,7 +10,7 @@ Wśród analizowanych strategii można wyróżnić:
 * [alwaysFalse](#alwaysFalse) - więźień zawsze zdradza
 * [titForTat](#titForTat) - rozpocznij od współpracy, następnie kopiuj ostatni ruch drugiego więźnia
 * [forgivingTitForTat](#forgivingTitForTat) - rozpocznij od współpracy; zdradź jedynie jeśli drugi więzień zdradzi dwa razy pod rząd
-* [strategyChecker](#forgivingTitForTat) - bardziej rozbudowana strategia; rozpoczyna od sekwencji: zdradź, zdradź, współpracuj, zdradź, współpracuj. Następnie, na podstawie decyzji drugiego więźnia, podejmuje odpowiednie decyzje. Cechy strategii:
+* [strategyChecker](#strategyChecker) - bardziej rozbudowana strategia; rozpoczyna od sekwencji: zdradź, zdradź, współpracuj, zdradź, współpracuj. Następnie, na podstawie decyzji drugiego więźnia, podejmuje odpowiednie decyzje. Cechy strategii:
     * Próbuje nie współpracować jeśli natrafi na wsięźnia który nie współpracuje
     * Współpracuje gdy trafi na więźnia który chce współpracować
     * Raz współpracować i raz zdradzać gdy natrafi na więźnia który "wybacza"
