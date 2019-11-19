@@ -20,6 +20,12 @@ Czas trwania symulacji wynosił 100 iteracji. Warto zauważyć, iż więźniowie
 
 Symulację przeprowadzono 10 razy, poniżej przedstawiono 6 wykresów porównujących daną strategię ze wszystkimi innymi, na przykładzie konkretnej symulacji.
 
+# Macierz gry
+
+Strategie gracza 1 \ Strategie gracza 2 | Współpracuje | Zdradza
+---------|----------|---------
+ Współpracuje | 2,2 | 0,3
+ Zdradza | 3,0 | 1,1
 
 ## <a name="random"></a>random
 ![random](plots/random.png)
